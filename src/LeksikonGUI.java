@@ -38,10 +38,7 @@ public class LeksikonGUI extends javax.swing.JFrame {
     
     final JFileChooser fc = new JFileChooser();
     private Baza baza;
-    private ArrayList<Character> znaki = new ArrayList<Character>(Arrays.asList('A', 'a', 'B', 'b', 'C', 'c', 'Č', 'č', 'Ć', 'ć', 'D', 'd',
-            'Đ', 'đ', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n',
-            'O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'Š', 'š','T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x',
-            'Y', 'y', 'Z', 'z', 'Ž', 'ž'));
+    private ArrayList<Character> znaki = new ArrayList<Character>(Arrays.asList('A', 'a', 'B', 'b', 'C', 'c', 'Č', 'č', 'Ć', 'ć', 'D', 'd','Đ', 'đ', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n','O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'Š', 'š','T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x','Y', 'y', 'Z', 'z', 'Ž', 'ž'));
 
     /**
      * Creates new form LeksikonGUI
@@ -335,7 +332,6 @@ public class LeksikonGUI extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-        bindingGroup = new org.jdesktop.beansbinding.BindingGroup();
 
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
@@ -360,9 +356,6 @@ public class LeksikonGUI extends javax.swing.JFrame {
             public int getSize() { return strings.length; }
             public Object getElementAt(int i) { return strings[i]; }
         });
-
-        org.jdesktop.beansbinding.Binding binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, jList1, org.jdesktop.beansbinding.ObjectProperty.create(), jList1, org.jdesktop.beansbinding.BeanProperty.create("elements"));
-        bindingGroup.addBinding(binding);
 
         jScrollPane3.setViewportView(jList1);
 
@@ -421,8 +414,6 @@ public class LeksikonGUI extends javax.swing.JFrame {
                     .addComponent(jButton4)))
         );
 
-        bindingGroup.bind();
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -475,6 +466,5 @@ public class LeksikonGUI extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField1;
-    private org.jdesktop.beansbinding.BindingGroup bindingGroup;
     // End of variables declaration//GEN-END:variables
 }
