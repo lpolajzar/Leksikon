@@ -1,0 +1,5 @@
+Ime,Opis
+Pes, Žival na štirih nogah
+Dež, Vremenski pojav
+Zobna ščetka, Pripomoček za umivanje zob
+Šotor, Oprema za taborjenje
